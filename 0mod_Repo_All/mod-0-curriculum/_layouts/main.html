@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+
+  <body>
+    <div class="container">
+      <section class="sidebar">
+        {% include navigation.html %}
+      </section>
+      <section class="content">
+        <article>
+          <header>
+            <h1>
+              Turing School Mod 0 Curriculum
+            </h1>
+          </header>
+          <section class="main-content">
+            {{ content }}
+          </section>
+        </article>
+      </section>
+    </div>
+  </body>
+  <script type="text/javascript" src="{{ site.url }}/assets/javascript/navigation.js"></script>
+</html>

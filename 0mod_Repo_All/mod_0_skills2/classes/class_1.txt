@@ -1,0 +1,17 @@
+class: Cup
+
+attributes:
+
+color: ("string")
+type: ("string")
+material: ("string")
+contents: (array)
+toGo: (boolean)
+
+methods:
+
+changeColor: (changes the color attribute)
+changeType: (changes the type attribute)
+addSugar: (changes contents attribute)
+switchFoam: (sets toGO to true)
+switchFoam: (changes the material attribute)

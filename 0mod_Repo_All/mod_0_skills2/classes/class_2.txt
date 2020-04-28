@@ -1,0 +1,18 @@
+class: Dessert
+
+
+attributes:
+
+name: (string)
+comesCold: (boolean)
+withIceCream: (boolean)
+provideUtensil: (string)
+priceDessert: (float)
+
+methods:
+
+changeName: (changes name attribute)
+addHeat: (sets comesCold to false)
+withoutIceCream: (sets withIceCream to false)
+withoutIceCream: (changes the provideUtensil attribute)
+doubleDessert: (changes the priceDessert attribute)

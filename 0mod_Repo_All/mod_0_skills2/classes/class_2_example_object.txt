@@ -1,0 +1,18 @@
+class: Dessert
+object: applePie
+
+attributes:
+
+name: "applePie"
+comesCold: false
+withIceCream: true
+provideUtensil: "spoon"
+priceDessert: 5.25
+
+methods:
+
+changeName: changes the name attribute to "chocolatePudding"
+comesCold: sets comesCold to true
+withoutIceCream: sets withIceCream to false
+withoutIceCream: changes the provideUtensil attribute to "fork"
+doubleDessert: changes priceDessert attribute to 10.50 by adding on an additional priceDessert (5.25 each)

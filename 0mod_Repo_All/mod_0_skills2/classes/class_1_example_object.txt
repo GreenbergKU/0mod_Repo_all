@@ -1,0 +1,19 @@
+class: Cup
+object: coffeeMug
+
+attributes:
+
+color: "white"
+type: "mug"
+material: "ceramic"
+contents: ["coffee", "cream"]
+toGo: false
+
+methods:
+
+changeColor: sets color attribute to "black"
+changeType: changes the type attribute
+addSugar: adds "sugar" to the end of the contents array = ["coffee", "cream", "sugar"]
+switchFoam: sets the toGo attribute to true
+switchFoam: changes the material attribute to "styrofoam"
+switchFoam: sets the toGo attribute to true
